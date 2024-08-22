@@ -4,11 +4,11 @@ Authors: Guosheng Dong*, Da Pan, Yiding Sun, Shusen Zhang, Zheng Liang, Xin Wu, 
 
 *Corresponding Authors, {[dongguosheng](mailto:dongguosheng@baichuan-inc.com), [zhouzenan](mailto:zhouzenan@baichuan-inc.com)} @baichuan-inc.com
 
-[Paper]() [Github](https://github.com/BaichuanSEED/BaichuanSEED.github.io) [Huggingface]()
+[\[Paper\]]() [\[Github\]](https://github.com/BaichuanSEED/BaichuanSEED.github.io) [\[Huggingface\]]()
 
 ## Main Contribution
 
-1. We propose a universally applicable data processing pipeline, including broad collection to scale up and reweighting to deduplicate and improve the data quality. 
+1. We propose a universal applicable data processing pipeline, including broad collection to scale up and reweighting to deduplicate and improve the data quality. 
 2. We train a competitive 7B LLM baseline **BaichuanSEED** from scratch with 3T data processed by the aforementioned pipeline, followed by a simple yet effective supervised fine-tuning. Our model is **consistent** and **predictable**, and achieves comparable performance on comprehensive benchmarks with cutting-edge commercial LLMs without any deliberate optimization.
 
 ## Universal Data Processing Pipeline
@@ -26,10 +26,11 @@ The details can be found in our technical report. The pipeline mainly consists o
 
 ## Evaluation
 
-### Attributes
+### Scaling Curves
 
+We introduce two important attributes during training of LLMs, consistency and predictablility: 
 - Consistency: the ability to gain uniform improvements across all evaluation benchmarks before and after SFT. (upper picture)
-- Predictable: the ability to forecast the capabilities of later checkpoints based on performance of earlier checkpoints. (lower picture)
+- Predictability: the ability to forecast the capabilities of later checkpoints based on performance of earlier checkpoints. (lower picture)
 
 <img src="static/images/consistency.jpg" width=70%/>
 
@@ -55,7 +56,6 @@ The details can be found in our technical report. The pipeline mainly consists o
 | OLMo-7B-SFT    | 2.5T            | 47.49         | 35.49          | 29.12            | 35.43           | 17.99             | 8.80               |
 | MAP-Neo-7B-SFT   | 4.5T            | 58.31         | 55.24          | 37.98            | 55.58           | _30.24_           | 14.35              |
 | **BaichuanSEED-SFT** | 3T              | 60.15         | 60.84          | 32.62            | _59.41_         | 29.63             | _18.32_            |
-|                      |                 |               |                |                  |                 |                   |                    |
 
 ### Downstream Tasks
 
@@ -76,7 +76,6 @@ The details can be found in our technical report. The pipeline mainly consists o
 | OLMo-7B-SFT        | 2.5T            | 25.16         | 19.51              | 2.52          | 17.66          | 42.87             | _72.62_            |
 | MAP-Neo-7B-SFT     | 4.5T            | 33.66         | **29.27**          | **30.86**     | _70.28_        | _53.82_           | 68.48              |
 | **BaichuanSEED-SFT**   | 3T              | _37.60_       | _23.17_            | 14.06         | 53.98          | 43.92             | **73.03**          |
-|                      |                 |               |                |                  |                 |                   |                    |
 
 ## Citation
 
