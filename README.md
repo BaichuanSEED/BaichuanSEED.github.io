@@ -26,15 +26,14 @@ The details can be found in our technical report. The pipeline mainly consists o
 
 ## Evaluation
 
-### Unique Attributes
+### Attributes
 
-- Consistency: the ability to gain uniform improvements across all evaluation benchmarks before and after SFT. (left picture)
-- Predictable: the ability to forecast the capabilities of later checkpoints based on performance of earlier checkpoints. (right picture)
+- Consistency: the ability to gain uniform improvements across all evaluation benchmarks before and after SFT. (upper picture)
+- Predictable: the ability to forecast the capabilities of later checkpoints based on performance of earlier checkpoints. (lower picture)
 
-<center class="half">
-<img src="static/images/consistency.jpg" width=45%/>
-<img src="static/images/predictability.jpg" width=40%/>
-</center>
+<img src="static/images/consistency.jpg" width=70%/>
+
+<img src="static/images/predictability.jpg" width=70%/>
 
 
 ### Comprehensive Benchmarks
