@@ -1,10 +1,10 @@
 # BaichuanSEED<img src="static/images/seeding.png" width=28/>: <u>S</u>haring the Potential of <u>E</u>xtensiv<u>E</u> <u>D</u>ata Collection and Deduplication by Introducing a Competitive Large Language Model Baseline
 
-Authors: Guosheng Dong*, Da Pan, Yiding Sun, Shusen Zhang, Zheng Liang, Xin Wu, Yanjun Shen, Fan Yang, Haoze Sun, Tianpeng Li, Mingan Lin, Jianhua Xu, Yufan Zhang, Xiaonan Nie, Lei Su, Bingning Wang, Wentao Zhang, Jiaxin Mao, Weipeng Chen, Zenan Zhou*
+Authors: Guosheng Dong*, Da Pan, Yiding Sun, Shusen Zhang, Zheng Liang, Xin Wu, Yanjun Shen, Fan Yang, Haoze Sun, Tianpeng Li, Mingan Lin, Jianhua Xu, Yufan Zhang, Xiaonan Nie, Lei Su, Bingning Wang, Wentao Zhang, Jiaxin Mao, Zenan Zhou*, Weipeng Chen
 
 *Corresponding Authors, {[dongguosheng](mailto:dongguosheng@baichuan-inc.com), [zhouzenan](mailto:zhouzenan@baichuan-inc.com)} @baichuan-inc.com
 
-[\[Paper\]]() [\[Github\]](https://github.com/BaichuanSEED/BaichuanSEED.github.io) [\[Huggingface\]]()
+[\[Paper(TBU)\]]() [\[Github\]](https://github.com/BaichuanSEED/BaichuanSEED.github.io) [\[Huggingface(TBU)\]]()
 
 ## Main Contribution
 
