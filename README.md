@@ -1,10 +1,21 @@
 # BaichuanSEED<img src="static/images/seeding.png" width=28/>: <u>S</u>haring the Potential of <u>E</u>xtensiv<u>E</u> <u>D</u>ata Collection and Deduplication by Introducing a Competitive Large Language Model Baseline
 
-Authors: Guosheng Dong*, Da Pan, Yiding Sun, Shusen Zhang, Zheng Liang, Xin Wu, Yanjun Shen, Fan Yang, Haoze Sun, Tianpeng Li, Mingan Lin, Jianhua Xu, Yufan Zhang, Xiaonan Nie, Lei Su, Bingning Wang, Wentao Zhang, Jiaxin Mao, Zenan Zhou*, Weipeng Chen
+<p align="center">
+<a href="https://arxiv.org/abs/2408.15079"> Paper</a> | 
+<a href="https://github.com/BaichuanSEED/BaichuanSEED.github.io"> Github </a> | 
+<a href=""> HuggingFace(TBU)</a>
+</p>
 
-*Corresponding Authors, {[dongguosheng](mailto:dongguosheng@baichuan-inc.com), [zhouzenan](mailto:zhouzenan@baichuan-inc.com)} @baichuan-inc.com
+<!-- Authors: Guosheng Dong*, Da Pan, Yiding Sun, Shusen Zhang, Zheng Liang, Xin Wu, Yanjun Shen, Fan Yang, Haoze Sun, Tianpeng Li, Mingan Lin, Jianhua Xu, Yufan Zhang, Xiaonan Nie, Lei Su, Bingning Wang, Wentao Zhang, Jiaxin Mao, Zenan Zhou*, Weipeng Chen
 
-[\[Paper(TBU)\]]() [\[Github\]](https://github.com/BaichuanSEED/BaichuanSEED.github.io) [\[Huggingface(TBU)\]]()
+*Corresponding Authors, {[dongguosheng](mailto:dongguosheng@baichuan-inc.com), [zhouzenan](mailto:zhouzenan@baichuan-inc.com)} @baichuan-inc.com -->
+
+
+## News
+
+
+📖 \[2024/08/28\] We released our [Technical Report](https://arxiv.org/abs/2408.15079) on arXiv. Base and SFT model checkpoints of BaichuanSEED, and partial pretraining data will be coming soon.
+
 
 ## Main Contribution
 
@@ -79,4 +90,14 @@ We introduce two important attributes during training of LLMs, consistency and p
 
 ## Citation
 
-TBU
+```
+@misc{dong2024baichuanseedsharingpotentialextensive,
+      title={BaichuanSEED: Sharing the Potential of ExtensivE Data Collection and Deduplication by Introducing a Competitive Large Language Model Baseline}, 
+      author={Guosheng Dong and Da Pan and Yiding Sun and Shusen Zhang and Zheng Liang and Xin Wu and Yanjun Shen and Fan Yang and Haoze Sun and Tianpeng Li and Mingan Lin and Jianhua Xu and Yufan Zhang and Xiaonan Nie and Lei Su and Bingning Wang and Wentao Zhang and Jiaxin Mao and Zenan Zhou and Weipeng Chen},
+      year={2024},
+      eprint={2408.15079},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2408.15079}, 
+}
+```
